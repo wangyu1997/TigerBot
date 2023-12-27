@@ -31,7 +31,7 @@
 	- Tigerbot-70b base (v2) and chat (v4) updated, chat model's comprehensive ability increased by 19% compared to the previous version;
 	- Tigerbot-13b base (v3) and chat (v5) updated, chat model's comprehensive ability increased by 16% compared to the previous version;
 	- Tigerbot-180b base and chat (v2) updated, base model is 7% better than Bloom, chat model is 20% better than Bloomz/Bloomz-mt;
-	- Training data: 500B tokens pre-trained data, knowledge截止 to August 2023. More high-quality data, including: tens of thousands of volumes, arXiv, Chinese textbooks, legal and patent data;
+	- Training data: 500B tokens pre-trained data, the knowledge is up to August 2023. More high-quality data, including: tens of thousands of volumes, arXiv, Chinese textbooks, legal and patent data;
 	- Sequence length: Tigerbot-70b-chat and Tigerbot-13b-chat launched training versions with a sequence length of 4k, and inference can be extrapolated to 32k;
 	- Training method: Pre-training optimized TP/PP algorithm, alignment used grouped sft, rejection-sampling, dpo (will share technical report later);
 	- The entire product line (web, app, mini program) and API have been upgraded to the latest and most powerful Tigerbot-70b-chat-v4-4k, and the product side has added search (search addition) and document (file enhancement) RAG functionality.
